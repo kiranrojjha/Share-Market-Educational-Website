@@ -1,0 +1,167 @@
+body {
+    font-family: TTNorms, Arial, sans-serif;
+    margin: 0%;
+}
+
+#navbar ul{
+       padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #235585;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+.card-title,
+.card-subtitle{
+    text-align: center;
+}
+.card{
+    height: 100%;
+}
+
+.price{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.features-heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-body .btn{
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+}
+.price-card-section .card{
+    transition: all 0.3s ease;
+}
+
+.price-card-section .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border: 2px solid #0d6efd;
+    transform: scale(1.03);
+
+}
+.card{
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+.chart-class{
+    width: 80vw;
+    height:60vh
+}
+.chart-container{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+#feeChart,
+#syllabusChart{
+    width: 100% !important;
+    height: 100% !important;
+}
+.ratio-charts-section{
+    margin: auto;
+    padding: 2%;
+}
+.tradingview-widget-container{
+    width: 100%;
+    height: 700px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel-caption{
+    background: rgba(51, 61, 69, 0.45);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+@media (max-width:768px){
+
+    .carousel-caption h5{
+        font-size: 18px;
+    }
+
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    border-color: transparent;
+}
+footer {
+    background-color: #6b6b6b;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    padding: 1%;
+}
+
+footer p {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 0%;
+}
+
+footer h3 {
+    color: #ffffff;
+}
+
+.social-links .me-3 {
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.quick-links ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.quick-links a {
+    color: #312f2f;
+    text-decoration: none;
+   }
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1%;
+
+}
