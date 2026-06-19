@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EquityWise-Elearn_sharemarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="../assests/images/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="../assests/images/logo.png" alt="Logo" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            EquityWise
+
+                        </a>
+                    </div>
+                </nav>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#course-categories">Course
+                                Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#knowledge-page">Knowledge page</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#faq">FAQ</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn  btn btn-primary" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- slideshow -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assests/images/1.jpg" class="d-block w-100" alt="..." width="460" height="415">
+                <div class="carousel-caption ">
+                    <h4>Learn the Art of Smart Investing</h4>
+                    <p>Start your journey towards financial freedom with stock market education.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assests/images/2.jpg" class="d-block w-100" alt="..." width="460" height="415">
+                <div class="carousel-caption ">
+                    <h4>Turn Knowledge into Wealth</h4>
+                    <p>Understand markets, analyze opportunities, and invest with confidence.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assests/images/3.jpg" class="d-block w-100" alt="..." width="460" height="415">
+                <div class="carousel-caption ">
+                    <h4>Every Expert Investor Was Once a Beginner</h4>
+                    <p>Start learning today and grow your financial future.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- embedded video  -->
+    <section id="emmedded-video">
+        <div class="video-section">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kTxx_Jpnpn0?si=Tyl64iJSbaqQZYHz"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- live market data  -->
+
+    <section id="market-data" class="container my-5">
+
+    <h2 class="text-center mb-4">Live Market Data</h2>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="card text-center p-3">
+                <h3>NIFTY 50</h3>
+                <p id="nifty-price">Loading...</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card text-center p-3">
+                <h3>SENSEX</h3>
+                <p id="sensex-price">Loading...</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+    <!-- TradingView Chart Section -->
+    <section id="trading-chart" class="container my-5">
+
+        <h2>Live Market Analysis</h2>
+
+        <p> Analyze Nifty 50 price movements using a live TradingView chart.</p>
+
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="height:100%;width:100%">
+            <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/"
+                    rel="noopener nofollow" target="_blank"><span class="blue-text">AAPL stock chart</span></a><span
+                    class="trademark"> by TradingView</span></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                    {
+                        "allow_symbol_change"; true,
+                            "calendar"; false,
+                                "details"; false,
+                                    "hide_side_toolbar"; true,
+                                        "hide_top_toolbar"; false,
+                                            "hide_legend"; false,
+                                                "hide_volume"; false,
+                                                    "hotlist"; false,
+                                                        "interval"; "D",
+                                                            "locale"; "en",
+                                                                "save_image"; true,
+                                                                    "style"; "1",
+                                                                        "symbol"; "NSE:NIFTY"
+                        "theme"; "dark",
+                            "timezone"; "Asia/Kolkata",
+                                "backgroundColor"; "#0F0F0F",
+                                    "gridColor"; "rgba(242, 242, 242, 0.06)",
+                                        "watchlist";[],
+                                            "withdateranges"; false,
+                                                "compareSymbols";[],
+                                                    "studies";[],
+                                                        "autosize"; true
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
+
+    </section>
+    <!-- charts  -->
+    <section id="charts" class="container my-5">
+        <div class="ratio-charts-section">
+
+            <h2 class="text-center mb-5">
+                Interactive Educational Charts
+            </h2>
+            <div class="chart-class">
+                <div class="row">
+
+                    <!-- Pie Chart -->
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h4 class="text-center">
+                                Course Fee Breakdown
+                            </h4>
+                            <div class="chart-container">
+
+                                <canvas id="feeChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <script src="../js/script.js"> </script>
+
+
+                    <!-- Doughnut Chart -->
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <h4 class="text-center">
+                                Syllabus Weightage
+                            </h4>
+                            <div class="chart-container">
+
+                                <canvas id="syllabusChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                    <script src="../js/script.js"> </script>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- course categories section  -->
+    <section id="course-categories">
+        <!-- beginner  -->
+        <div class="price-card-section">
+            <div class="container">
+                <div>
+                    <H4>Course Categories:</H4><br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Beginner Investor</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Start Your Investment Journey</h6>
+                                <p class="price">₹999</p>
+                                <p class="features-heading">Features</p>
+                                <ul class="card-text">
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Stock Market Basics</li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Nifty & Sensex Fundamentals
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Demat Account Setup Guide
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Beginner Investment
+                                        Strategies
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> certificate</li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Fundamental Analysis </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Technical Analysis </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Candlestick Patterns </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Risk Management </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Portfolio Management </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Intraday Training </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Swing Trading </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Live Trading Sessions </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Priority Mentor Support </li>
+
+                                </ul>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Enroll now</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- intermediate  -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Intermediate Investor</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Enhance Your Market Knowledge</h6>
+                                <p class="price">₹2,499</p>
+                                <p class="features-heading">Features</p>
+
+                                <ul class="card-text">
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Stock Market Basics</li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Nifty & Sensex Fundamentals
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Demat Account Setup Guide
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Beginner Investment
+                                        Strategies
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> certificate</li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Fundamental Analysis </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Technical Analysis </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Candlestick Patterns </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Risk Management </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Portfolio Management </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Intraday Training </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Swing Trading </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Live Trading Sessions </li>
+                                    <li><i class="bi bi-x-circle-fill text-danger"></i>Priority Mentor Support </li>
+                                </ul>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Enroll now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- advanced  -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Pro Trader</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Master Professional Trading
+                                    Strategies
+                                </h6>
+                                <p class="price">₹4,999</p>
+                                <p class="features-heading">Features</p>
+
+                                <ul class="card-text">
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Stock Market Basics</li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Nifty & Sensex Fundamentals
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Demat Account Setup Guide
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> Beginner Investment
+                                        Strategies
+                                    </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i> certificate</li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Fundamental Analysis </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Technical Analysis </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Candlestick Patterns </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Risk Management </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Portfolio Management </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Intraday Training </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Swing Trading </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Live Trading Sessions </li>
+                                    <li><i class="bi bi-check-circle-fill text-success"></i>Priority Mentor Support
+                                    </li>
+                                </ul>
+
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary">Enroll now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- knowledge card section  -->
+    <section id="knowledge-page">
+        <div class="container">
+            <h3>Knowledge Page</h3>
+
+            <div class="row">
+                <!-- card1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/nifty 50.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is Nifty?</h5>
+                            <p class="card-text">Learn about India's most popular stock market index.</p>
+
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                    Nifty 50 is a benchmark stock market index that represents the
+                                    performance
+                                    of the top 50 large companies listed on the National Stock Exchange (NSE) of India.
+                                    It
+                                    helps
+                                    investors understand the overall market trend and economic performance.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/sensex.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is Sensex?</h5>
+                            <p class="card-text">Understand the stock market index of the Bombay Stock Exchange.</p>
+
+                            <p class="d-inline-flex gap-2">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                    Sensex is the benchmark index of the Bombay Stock Exchange (BSE). It
+                                    consists of 30 well-established companies from different sectors and is used to
+                                    measure
+                                    the
+                                    overall performance of the Indian stock market.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/diffrence.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Intraday vs Delivery Trading</h5>
+                            <p class="card-text">Learn the difference between two common trading methods.</p>
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample3"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body">
+                                    Intraday trading involves buying and selling shares on the same day,
+                                    while
+                                    delivery trading allows investors to hold shares for days, months, or even years.
+                                    Intraday
+                                    trading is generally riskier, whereas delivery trading is more suitable for
+                                    long-term
+                                    investors.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/dividends.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is a Dividend?</h5>
+                            <p class="card-text">Discover how companies reward their shareholders.</p>
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample4"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample4">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample4">
+                                <div class="card card-body">
+                                    A dividend is a portion of a company's profits distributed to its
+                                    shareholders. Companies may pay dividends regularly as a reward to investors for
+                                    holding
+                                    their shares.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/demat account.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is a Demat Account?</h5>
+                            <p class="card-text">Understand the account required for investing in stocks.</p>
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample5"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample5">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample5">
+                                <div class="card card-body">
+                                    A Demat (Dematerialized) Account is used to hold shares and securities
+                                    in
+                                    electronic form. It eliminates the need for physical share certificates and is
+                                    essential
+                                    for
+                                    buying and selling stocks in India.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card text-center mb-3 " , style="width: 23rem;">
+                        <img src="../assests/images/ipo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is an IPO?</h5>
+                            <p class="card-text">Learn how companies enter the stock market.</p>
+                            <p class="d-inline-flex gap-1">
+                                <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample6"
+                                    role="button" aria-expanded="false" aria-controls="collapseExample6">
+                                    Read more
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample6">
+                                <div class="card card-body">
+                                    An Initial Public Offering (IPO) is the process through which a private
+                                    company offers its shares to the public for the first time. It allows companies to
+                                    raise
+                                    capital and gives investors an opportunity to become shareholders.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- faq section  -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div>
+                <H4>FAQ's: Frequently Asked Questions</H4><br>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Is this course suitable for complete beginners?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            <strong>YES.</strong> This course is designed for beginners with no prior knowledge of the
+                            stock market. We start with the basics and gradually move to advanced concepts.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            What topics are covered in the course?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Comprehensive Curriculum:</strong>
+                            The course covers stock market basics, Nifty & Sensex, investing fundamentals, technical
+                            analysis, fundamental analysis, risk management, and portfolio building.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Do I need a Demat account to start learning?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>NO.</strong> A Demat account is not required for learning. However, you may need one
+                            later if you decide to start investing in the stock market.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="fasle"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            Will I receive a certificate after completing the course?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            <strong>YES.</strong> A course completion certificate will be provided after successfully
+                            completing all learning modules and assessments.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            What is the refund policy?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            Refund requests can be made within 7 days of enrollment, provided the course content has not
+                            been substantially accessed.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            How long will I have access to the course?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Lifetime Access:</strong> Once enrolled, you will have lifetime access to the course
+                            materials, recorded sessions, and future updates, allowing you to learn at your own pace.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            Are live classes included in the course?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Yes, Live Classes Are Included:</strong> The course includes live interactive
+                            sessions
+                            where students can learn directly from experienced mentors, ask questions, and participate
+                            in
+                            discussions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight">
+                            Can students and working professionals join this course?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Absolutely:</strong> This course is suitable for students, working professionals,
+                            entrepreneurs, and anyone interested in learning about the stock market and investing.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine">
+                            Will I learn real-world stock market analysis?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Yes, Practical Learning Is a Core Part of the Course:</strong> You will learn how to
+                            analyze stocks using real market data, charts, financial statements, and case studies to
+                            gain
+                            hands-on experience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <section id="footer">
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#" target="_self">Home</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Knowledge hub</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                support@marketmastery.com
+                <br>
+                +91 XXXXX XXXXX
+
+
+            </div>
+            <div class="follow us">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="me-3"><i class="bi bi-facebook"> </i></a>
+                    <a href="#" class="me-3"><i class="bi bi-instagram"> </i></a>
+                    <a href="#" class="me-3"><i class="bi bi-linkedin"> </i></a>
+                    <a href="#" class="me-3"><i class="bi bi-twitter-x"> </i></a>
+                    <a href="#" class="me-3"><i class="bi bi-youtube"> </i></a>
+                </div>
+            </div>
+            <p>Copyright &copy; 2026 Market Mastery. All Rights Reserved.</p>
+
+        </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
