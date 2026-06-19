@@ -1,0 +1,29 @@
+share-market-website/
+│
+|___html/
+|   ├── index.html
+|   ├── knowledge.html
+|   ├── faq.html
+|   ├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── main.js
+│   ├── market.js
+│   └── charts.js
+│
+├── assets/
+|   |_images/
+│       ├── 1.jpg
+│       ├── 2.jpg
+│       ├── 3.jpg
+│       ├── demat account.png
+│       ├── difference.png
+│       ├── dividends.png
+│       ├── ipo.png
+│       ├── logo.png
+│       ├── nifty 50.png
+│       └── sensex.png
+│

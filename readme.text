@@ -1,0 +1,70 @@
+🚀 Project Assignment: Share Market Educational Website
+
+*Objective:* Aapko HTML, CSS, Bootstrap 5, aur JavaScript ka use karke ek professional, responsive aur dynamic *Share Market Teaching Website* banani hai.
+
+ 🎨 Design & Theme Guidelines
+
+* *Primary Theme:* Maximum White (Clean & Minimal look) ke sath Minimum Blue (For accents, buttons, headers, and highlights).
+* *Responsiveness:* Website mobile, tablet aur desktop sabhi par perfectly fit honi chahiye (Bootstrap 5 ka use karein).
+
+
+
+ 📋 Step-by-Step Task Breakdowns
+
+ Step 1: Website Structure & Navigation (HTML & Bootstrap 5)
+
+Ek Multi-page ya ek single-page website banayein jisme niche diye gaye pages/sections hone chahiye:
+
+* *Header/Navbar:* Professional logo, Course Categories, Knowledge Page, FAQ, aur Contact Us button ke sath (Sticky Navbar banayein).
+* *Footer:* Copyright text, Quick Links, aur Social Media handles.
+
+ Step 2: Hero Section & Slideshow (Home Page)
+
+* *Image Slideshow:* Home page ke top par Bootstrap *Carousel* ka use karke ek dynamic slideshow banayein. Isme Share Market se related high-quality images aur motivating text overlays hone chahiye.
+* *Intro Video:* Slideshow ke thik niche ek Section banayein jisme YouTube se koi bhi achhi Share Market introductory video ka code **iframe** ke throw embed (integrate) karein.
+
+ Step 3: Live Market Data (JavaScript & API Integration)
+
+* Website par ek live ticker ya card section banayein jo **NSE (Nifty 50)** aur **BSE (Sensex)** ka real-time ya daily data dikhaye.
+* **Task:** JavaScript `fetch()` function ka use karke kisi bhi free financial API (jaise Yahoo Finance API, Alpha Vantage, ya Twelve Data) se data fetch karein aur use DOM manipulation ke through HTML par display karein.
+
+# Step 4: TradingView Chart Integration
+
+* Technical Analysis sikhane ke liye home page ya ek alag section me *TradingView Ka Live Chart Widget* lagayein.
+* *(Tip: TradingView ki website par jaakar unka free embeddable widget code copy karein aur use HTML me paste karein).*
+
+ Step 5: Course Packages & Pricing Cards
+
+* Bootstrap **Cards** ka use karke 3 different course packages design karein (e.g., Beginner, Intermediate, Pro Trader).
+* Har card me: Course Name, Features list (Bullet points), Price, aur ek "Enroll Now" ka Blue color ka button hona chahiye.
+
+Step 6: Interactive Educational Charts (Data Visualization)
+
+Student ko data visualization sikhane ke liye **Chart.js** (JavaScript library) ka use karna hai. Niche diye gaye do charts banayein:
+
+1. **Fee Amount Pie Chart:** Jo dikhaye ki fees ka breakdown kaise hai (e.g., Live Classes 50%, Study Material 20%, Mock Tests 30%).
+2. *Syllabus Circle/Doughnut Chart:* Jo syllabus ka weightage dikhaye (e.g., Technical Analysis 40%, Fundamental Analysis 30%, Risk Management 30%).
+
+ Step 7: Knowledge Page (Blog/Tutorial Section)
+
+* Ek alag page ya section banayein jahan Share Market ke basic terms ke cards honi chahiye (e.g., What is Nifty?, Intraday vs Delivery, Dividend kya hota hai?).
+* Yahan user click karke basic knowledge read kar sake.
+
+ Step 8: FAQ Page (Frequently Asked Questions)
+
+* Bootstrap 5 ke **Accordion** component ka use karke ek clean FAQ section banayein.
+* Isme kam se kam 5 questions hone chahiye (e.g., "Kya yeh course beginners ke liye hai?", "Refund policy kya hai?").
+
+---
+
+ 🛠️ Technical Submission Checklist
+
+Aapko project submit karte waqt in baaton ka dhyan rakhna hai:
+
+1. *Code Quality:* HTML tags properly closed honi chahiye aur CSS/JS files externally linked honi chahiye.
+2. *UI/UX:* Website professional lagni chahiye, zyada bright colors ka use na karein (White and Blue combination rules follow karein).
+3. *JavaScript Functionality:* API fetch aur Charts dynamic work karne chahiye, console me koi error nahi hona chahiye.
+
+---
+
+*Best of Luck! 👍 Clean aur scalable code likhein.*
