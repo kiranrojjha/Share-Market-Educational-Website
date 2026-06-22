@@ -78,12 +78,26 @@ fetch("API_URL")
         console.error(error);
     });
 
+// top button
+let topButton = document.getElementById("topBtn");
 
-fetch(url)
-    .then(response => response.json())
-    .then(data => {
+window.onscroll = function () {
+    if (
+        document.body.scrollTop > 200 ||
+        document.documentElement.scrollTop > 200
+    ) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+};
 
-        document.getElementById("nifty-price").innerHTML =
-            data["Global Quote"]["05. price"];
-
+function topFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
     });
+}
+
+
+
