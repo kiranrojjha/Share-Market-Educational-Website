@@ -193,7 +193,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding:1%;
-   background-image: url(../assests/images/videosection.webp);
+   background-image: url(../assests/images/videosection.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -201,9 +201,16 @@ footer {
        
 }
 .video-section iframe{
-    border:  #166ed2 30px ;
+    border:  #598eea 30px ;
     border-style: solid;
     max-width: inherit;
+}
+.video-section iframe:hover{
+    transform: scale(1.10);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.438);
+   
+    
+
 }
 #knowledge-page h3{
     padding-top: 15px;
