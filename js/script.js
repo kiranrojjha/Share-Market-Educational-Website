@@ -98,6 +98,33 @@ function topFunction() {
         behavior: "smooth"
     });
 }
+// animation
 
+const heading2 = document.getElementById("livemarketheading");
+
+window.addEventListener("scroll", () => {
+    const pos2= heading.getBoundingClientRect().top;
+
+    if (pos2< window.innerHeight) {
+        heading.classList.add(
+            "animate__animated",
+            "animate__backInLeft"
+        );
+    }
+});
+
+
+const heading = document.getElementById("chartHeading");
+
+window.addEventListener("scroll", () => {
+    const pos = heading.getBoundingClientRect().top;
+
+    if (pos < window.innerHeight) {
+        heading.classList.add(
+            "animate__animated",
+            "animate__backInLeft"
+        );
+    }
+});
 
 
